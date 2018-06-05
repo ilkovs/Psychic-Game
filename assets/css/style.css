@@ -1,0 +1,33 @@
+body {
+    background-image: url("../images/scuffedstatic_dark_1920x1234.jpg");
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#GuessWhat {
+    color: red;
+}
+
+#Wins {
+    color: red;
+}
+
+#Losses {
+    color: red;
+}
+
+#Guesses {
+    color: red;
+}
+
+#SoFar {
+    color: red;
+}
+
+audio {
+    display: none;
+}

@@ -44,7 +44,7 @@ document.onkeyup = function (event) {
 
 
     if (guessesLeft > 0) {
-        if (userGuess == letterToGUess) {
+        if (userGuess == letterToGuess) {
             wins++;
             document.getElementById("Wins").innerHTML = "Wins: " + wins;
             alert("You have a talant !");
@@ -58,3 +58,4 @@ document.onkeyup = function (event) {
         reset();
     }
 };
+
